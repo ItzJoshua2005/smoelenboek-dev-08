@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding: 20px;
+    background-color: #2f0606;
+    height: 100vh;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.links, .rechts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.center-image img {
+  max-height: 150px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  display: block;
+}
+
+
